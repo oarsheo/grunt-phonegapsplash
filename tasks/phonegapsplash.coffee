@@ -88,6 +88,7 @@ module.exports = (grunt) ->
             "-resize #{splash.width}x#{splash.height}! " + \
             "#{SRC} #{targetFile}"
           gm(SRC)
+            .quality(100)
             .crop(cropWidth, cropHeight, cropX, cropY)
             .resize(splash.width, splash.height, '!')
             .write targetFile, (err) ->

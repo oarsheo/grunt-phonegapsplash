@@ -26,7 +26,7 @@ path = require 'path'
 module.exports = (config) ->
   # Android
   'android':
-    dir: path.join 'platforms', 'android', 'res'
+    dir: path.join 'platforms', 'android', 'app', 'src', 'main', 'res'
     layout:
       landscape:
         splashs: [

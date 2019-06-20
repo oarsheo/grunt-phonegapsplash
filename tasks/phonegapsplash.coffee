@@ -16,7 +16,7 @@ async = require 'async'
 path = require 'path'
 
 # Main splashscreen resolution (a squared PNG)
-RESOLUTION = 2048
+RESOLUTION = 2436
 # Special values for layout none (squared layout)
 OFFSET = 384
 NONE_RESOLUTION = 1280

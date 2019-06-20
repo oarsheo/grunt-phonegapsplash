@@ -94,6 +94,8 @@ module.exports = (config) ->
           { name: 'Default-Portrait@2x~ipad.png', width: 1536, height: 2048 }
           { name: 'Default-667h.png', width: 750, height: 1334 }
           { name: 'Default-736h.png', width: 1242, height: 2208 }
+          { name: 'Default-2436h.png', width: 1125, height: 2436 }
+          
           { name: 'Default@3x~iphone~comany.png', width: 1242, height: 2436 }
 
             { name: 'Default@2x~iphone~anyany.png', width: 1334, height: 1334 }

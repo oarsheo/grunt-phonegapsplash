@@ -26,7 +26,7 @@ path = require 'path'
 module.exports = (config) ->
   # Android
   'android':
-    dir: path.join 'platforms', 'android', 'app', 'src', 'main', 'res'
+    dir: path.join 'android', 'app', 'src', 'main', 'res'
     layout:
       landscape:
         splashs: [
@@ -77,7 +77,7 @@ module.exports = (config) ->
 
   # iOS (Retina and legacy resolutions)
   'ios':
-    dir: path.join 'platforms', 'ios', config.prjName, 'Images.xcassets', 'LaunchImage.launchimage'
+    dir: path.join 'ios', config.prjName, 'Images.xcassets', 'LaunchImage.launchimage'
     layout:
       landscape:
         splashs: [
